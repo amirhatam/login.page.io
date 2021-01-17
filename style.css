@@ -1,23 +1,23 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgb(101, 146, 217);
-    background: linear-gradient(100deg, rgba(101, 146, 217, 1) 0%, rgb(52 127 248) 71%);
+    background: linear-gradient(90deg, rgba(104,204,255,1) 0%, rgba(23,114,235,1) 100%);
 }
 
 form{
     margin-right: auto;
     margin-left: auto;
-    margin-top: 8vmax;
+    margin-top: 6vmax;
     background-color: white;
-    width: 25%;
-    height: 33vmax;
+    width: 26vmax;
+    height: 57vmax;
+    max-height: 550px;
     border-radius: 20px;
     text-align: center;
-
 }
 h3{
     padding: 6vmax 0px 10px;
     margin: 0;
+    font-size: 1.5vmax;
 }
 span{
     color: blue;
@@ -28,18 +28,19 @@ input[class="text"] {
     margin: 10px 0;
     border: none;
     border-bottom: 2px solid  rgb(101, 146, 217);
+    font-size: 1.2vmax;
 }
 input[type="button"] {
     width: 75%;
     padding: 15px 10px;
-    margin: 10px 0;
+    margin: 20px 0 10px;
     border: none;
     border-radius: 5px;
     color: white;
     font-size: 1.2vmax;
-    cursor: pointer;
-    background: rgb(136,174,230);
+    cursor: pointer;;
     background: linear-gradient(77deg, rgba(136,174,230,1) 0%, rgba(127,171,240,1) 29%, rgba(11,105,245,1) 93%);
+
 }
 .text:focus {
     outline: none;
@@ -56,6 +57,7 @@ a{
     display: inline-block;
     text-decoration: none;
     margin: 10px 0;
+    font-size: 1.2vmax;
 }
 .forgot {
     color: black;
